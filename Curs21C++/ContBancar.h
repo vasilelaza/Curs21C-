@@ -16,8 +16,13 @@ private:
 	TIP_CONT eTipCont;
 	std::string IBAN;
 
-public:// 1                           (2)                            1-Constructor;2-parametri
+public:  //1                          (2)                            1-Constructor;2-parametri
 	ContBancar(std::string nume,std::string prenume,std::string iban);
-	~ContBancar();  //Destructor
+	inline std::string getNume(){ return nume; }
+	inline std::string getPreume() { return prenume; }
+	inline int getSold() { return sold; }
+	inline std::string getIban() { return IBAN; }
+	inline void setSoldValue(int value) { sold = value; }
+	~ContBancar();   //Destructor
 };
 
