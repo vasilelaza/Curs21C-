@@ -4,7 +4,7 @@ enum class TIP_CONT
 {
      CONT_RON,
 	 CONT_EURO,
-	 CONT_DOLAR,
+	 CONT_DOLAR
 };
 class ContBancar
 {
